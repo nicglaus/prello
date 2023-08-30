@@ -4,4 +4,4 @@ poi
 ,longitude
 ,municipality_code
 ,importance
-FROM prello_project.POI_tourist_establishments
+FROM Prello_cna.POI_tourist_establishments
