@@ -1,7 +1,7 @@
 WITH filtered_population AS (
   SELECT *
   FROM Prello_cna.population_by_municipality
-  WHERE year = 2019 AND population >= 198
+  WHERE year = 2019 AND population >= 4
 ),
 
 avg_salary_by_year_and_municipality AS (
