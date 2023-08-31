@@ -2,8 +2,7 @@ SELECT
 municipality_code,	
 city_name_normalized,	
 municipality_type,		
-latitude,			
-longitude,									
+CONCAT(longitude, ', ', latitude) AS location,									
 department_name,	
 department_code,
 country_name
