@@ -9,3 +9,4 @@ country_name
 FROM Prello_cna.geo_referential
 WHERE department_code NOT IN ('971', '972', '973', '974', '976', '977', '978', '986', '987', '988')
 
+
